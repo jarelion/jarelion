@@ -1,0 +1,55 @@
+---
+layout: home
+---
+
+<section class="date-section">
+  <h2 class="date">Sponsored</h2>
+
+  <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1698&serve=CVYD42E&placement=thenewsprint" id="_carbonads_js"></script>
+
+</section>
+
+{% for post in site.categories.featured limit:1 %}
+  {% unless page.url contains 'page' %}
+  <section class="date-section">
+    <h2 class="date">Featured</h2>
+
+    <article class="post-preview">
+      <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      {{ post.excerpt | strip_html }}
+    </article>
+  </section>
+  {% endunless %}
+{% endfor %}
+
+{% for post in paginator.posts %}
+  {% unless post.categories contains 'featured' %}
+    <section class="date-section">
+    {% capture currentdate %}{{post.date | date: "%A, %B %d, %Y"}}{% endcapture %}
+    {% if currentdate != thedate %}
+      <h2 class="date">{{ currentdate }}</h2>
+      {% capture thedate %}{{currentdate}}{% endcapture %} 
+    {% endif %}
+      <article class="post-preview">
+        <h2 class="post-title"><a href="{% if post.link %}{{ post.link }}{% else %}{{ post.url }}{% endif %}">{{ post.title }}</a>{% if post.link %}<span class="permalink"><a href="{{ post.url | prepend: site.url }}">&#9679;</a></span>{% endif %}</h2>
+        {% if post.link %}{{ post.content }}{% else %}{{ post.excerpt | strip_html }}{% endif %}
+      </article>
+    </section>
+    {% endunless %}
+{% endfor %}
+
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+  {% else %}
+    <span class="previous">Previous</span>
+  {% endif %}
+  <span class="page-number">{{ paginator.page }} of {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+  {% else %}
+    <span class="next ">Next</span>
+  {% endif %}
+</div>
+
+<!-- div class="infinite-spinner"></div -->

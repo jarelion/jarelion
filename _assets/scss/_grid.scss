@@ -1,0 +1,12 @@
+// GRID
+
+$grid-columns		: 		8;
+$gutter				:		1rem;
+$max-width			:		rem(592);
+$visual-grid		: 		false;
+$visual-grid-index	:		back;
+$visual-grid-color	: 		rgba(0, 0, 15, .1);
+$mobile				: 		new-breakpoint(max-width 480px 4);
+$mini				:		new-breakpoint(max-width 600px 4);
+$tablet				: 		new-breakpoint(max-width 768px 4);
+$break      		:   	new-breakpoint(max-width 1200px 6);	

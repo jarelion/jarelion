@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{% if page.link %}<a href="{{ page.link }}">{{ page.title }}</a>{% else %}{{ page.title }}{% endif %}{% if page.link %}<span class="permalink"><a href="{{ page.url | prepend: site.url }}">&#9679;</a></span>{% endif %}</h1>
+    <span class="meta-date">{{ page.date | date: "%B %-d, %Y" | upcase }}</span>
+    {% if post.author %}<span class="meta-author">{{ post.author }}</span>{% endif %}
+  </header>
+
+  <article class="post-content">
+    {{ content }}
+  </article>
+
+  <span class="meta-permalink"><a href="{{ page.url | prepend: site.url }}">Permalink</a></span><span class="permalink"><a href="{{ page.url | prepend: site.url }}">&#9679;</a></span>
+
+  <section class="footer-date-section">
+  <h2 class="date">Sponsored</h2>
+
+    <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1698&serve=CVYD42E&placement=thenewsprint" id="_carbonads_js"></script>
+
+  </section>
+
+</div>
+
+

@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<div class="error">
+
+  <h1 class="huge">404</h1>
+
+  <h2 class="big">The page you're looking for could not be found</h2>
+
+  <p>Here's an excerpt from the latest post. If that's not what you're looking for, why don't you check out the <a href="/archive">archive</a>?
+
+    {% for post in site.posts limit:1 %}
+      <section class="date-section">
+        <h2 class="date">Latest Post</h2>
+
+        <article class="post-preview">
+          <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+          {{ post.excerpt | strip_html }}
+        </article>
+      </section>
+    {% endfor %}
+
+  <section class="date-section">
+    <h2 class="date">Sponsored</h2>
+
+      <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1698&serve=CVYD42E&placement=thenewsprint" id="_carbonads_js"></script>
+
+  </section>
+
+</div>

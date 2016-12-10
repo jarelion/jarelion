@@ -1,0 +1,47 @@
+$red: #AF181B;
+$offwhite: #f9f9f9;
+$black: #262626;
+$grey: #5d5d5d;
+$lightgrey: #fefefe;
+$white: $offwhite;
+
+$baseline: 24px;
+
+// Z-INDEX
+
+$z-index-1:   100;
+$z-index-2:   200;
+$z-index-3:   300;
+$z-index-4:   400;
+$z-index-5:   500;
+$z-index-6:   600;
+$z-index-7:   700;
+$z-index-8:   800;
+$z-index-9:   900;
+$z-index-10: 1000;
+
+// FONTS
+
+$base-font-size: 0.875rem;
+$base-line-height: 1.5rem;
+
+$h1-font-size: 1.375rem;
+$h1-line: 1.25rem;
+$h1-lines: 2;
+$h1-line-height: $h1-line * $h1-lines;
+$h1-margin-top: 2 * $h1-line;
+$h1-margin-bottom: 1 * $h1-line;
+
+$h2-font-size: 1.125rem;
+$h2-line: 1.25rem;
+$h2-lines: 1;
+$h2-line-height: $h2-line * $h2-lines;
+$h2-margin-top: 1 * $h2-line;
+$h2-margin-bottom: 1 * $h2-line;
+
+$h3-font-size: 0.875rem;
+$h3-line: 1.25rem;
+$h3-lines: 1;
+$h3-line-height: $h3-line * $h3-lines;
+$h3-margin-top: 1 * $h3-line;
+$h3-margin-bottom: 1 * $h3-line;

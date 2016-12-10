@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<div class="page">
+
+{% for post in site.posts %}
+  {% unless post.link %}
+  {% unless post.categories contains 'sundayedition' %}
+    <section class="date-section">
+    {% capture currentdate %}{{post.date | date: "%B, %Y"}}{% endcapture %}
+    {% if currentdate != thedate %}
+      <h2 class="date">{{ currentdate }}</h2>
+      {% capture thedate %}{{currentdate}}{% endcapture %} 
+    {% endif %}
+      <article class="post-preview">
+        <h2 class="post-title"><a href="{% if post.link %}{{ post.link }}{% else %}{{ post.url }}{% endif %}">{{ post.title }}</a></h2>
+      </article>
+    </section>
+    {% endunless %}
+    {% endunless %}
+{% endfor %}
+
+
+  <section class="date-section">
+    <h2 class="date">Sponsored</h2>
+
+      <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1698&serve=CVYD42E&placement=thenewsprint" id="_carbonads_js"></script>
+
+  </section>
+
+</div>
