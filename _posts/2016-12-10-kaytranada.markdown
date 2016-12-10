@@ -2,7 +2,7 @@
 title: kaytranada
 date: 2016-12-10 04:00:00 Z
 header image: http://thefader-res.cloudinary.com/images/w_1440,c_limit,f_auto,q_auto:best/_W4A6961_WEB_eejcls/kaytranada-album-interview-99-percent.jpg
-layout: default
+layout: post
 ---
 
 # 99.9% is one of the best albums of the year. 
