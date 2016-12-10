@@ -6,7 +6,7 @@ layout: page
 
 jarelion is written and by jeremy perkins.
 
-**Contact**
+**contact**
 
 shoot me an email at [jarelion@gmail.com](mailto:jarelion@gmail.com)
 
