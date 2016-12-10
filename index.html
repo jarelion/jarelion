@@ -2,13 +2,6 @@
 layout: home
 ---
 
-<section class="date-section">
-  <h2 class="date">Sponsored</h2>
-
-  <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1698&serve=CVYD42E&placement=thenewsprint" id="_carbonads_js"></script>
-
-</section>
-
 {% for post in site.categories.featured limit:1 %}
   {% unless page.url contains 'page' %}
   <section class="date-section">
