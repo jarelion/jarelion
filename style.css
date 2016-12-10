@@ -26,8 +26,8 @@ li ol, li ul {
   margin-bottom: 0; }
 
 body {
-  font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B', 'Helvetica', sans-serif;
-  color: #262626;
+  font-family: 'Karla';
+  color: #000000;
   font-size: 0.875rem;
   line-height: 1.5rem;
   font-weight: 300; }
@@ -59,11 +59,10 @@ blockquote {
 
 a {
   color: #262626;
-  text-decoration: none;
-  border-bottom: 1px dotted #AF181B; }
+  text-decoration: none;}
 
 a:hover {
-  border-bottom: 1px solid #AF181B; }
+  border-bottom: 1px solid #000000; }
 
 p {
   margin: 1rem 0; }
@@ -75,8 +74,7 @@ li {
   line-height: 1.75rem; }
 
 hr {
-  border: 0;
-  border-bottom: 1px dashed #AF181B; }
+  border: 0; }
 
 .site-title a {
   font-size: 2rem;
@@ -85,14 +83,14 @@ hr {
   font-weight: 600;
   text-decoration: none;
   border-bottom: none;
-  color: #AF181B; }
+  color: #000000; }
   .site-title a:hover {
     color: #262626; }
 
 .site-nav ul {
   margin: 0; }
   .site-nav ul li {
-    font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B', 'Helvetica', sans-serif;
+    font-family: 'Karla';
     font-variant: small-caps;
     font-weight: 600;
     font-size: 1rem;
@@ -101,11 +99,11 @@ hr {
     .site-nav ul li:last-of-type {
       margin-right: 0; }
     .site-nav ul li a {
-      color: #262626;
+      color: #000000;
       text-decoration: none;
       border-bottom: 0; }
     .site-nav ul li a:hover {
-      color: #AF181B; }
+      color: #262626; }
     @media screen and (max-width: 480px)  {
       .site-nav ul li {
         line-height: 3rem; } }
@@ -149,11 +147,11 @@ hr {
 
 .page-number {
   padding: 0 1rem;
-  color: #AF181B; }
+  color: #000000; }
 
 .huge {
   font-size: 8rem;
-  color: #AF181B;
+  color: #000000;
   font-weight: 600;
   margin-bottom: 4rem; }
 
@@ -162,7 +160,7 @@ hr {
   line-height: 2.5rem; }
 
 body {
-  background-color: #f9f9f9; }
+  background-color: #ffffff; }
 
 .wrapper {
   margin: 0 auto;
@@ -220,7 +218,7 @@ header {
   header ul li {
     display: inline-block; }
   header .wrapper {
-    border-bottom: 1px dotted #AF181B;
+    border-bottom: 1px dotted #000000;
     padding-bottom: 1rem; }
     @media screen and (max-width: 600px)  {
       header .wrapper {
