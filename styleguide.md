@@ -1,7 +1,7 @@
 ---
-layout: page
 title: The Newsprint Styleguide
-permalink: /styleguide/
+permalink: "/styleguide/"
+layout: page
 ---
 
 Banjo jean shorts readymade taxidermy. Aesthetic authentic occupy gluten-free, cray typewriter Blue Bottle drinking vinegar Cosby sweater pour-over bitters cold-pressed polaroid ennui. Mlkshk retro narwhal crucifix. Wayfarers actually bespoke put a bird on it biodiesel. Beard Marfa fixie Odd Future. Small batch lo-fi wolf tattooed try-hard, banh mi readymade deep v meditation post-ironic seitan umami. Yr PBR aesthetic beard.

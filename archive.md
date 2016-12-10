@@ -1,7 +1,7 @@
 ---
-layout: archive
 title: Archive
-permalink: /archive/
+permalink: "/archive/"
+layout: archive
 ---
 
 Below is a list of work that can be found on The Newsprint.

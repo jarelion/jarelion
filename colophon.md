@@ -1,8 +1,7 @@
 ---
-layout: page
 title: Colophon
-permalink: /colophon/
-published: true
+permalink: "/colophon/"
+layout: page
 ---
 
 The Newsprint is written and produced by Josh Ginter.

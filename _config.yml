@@ -1,15 +1,31 @@
-# Site settings
-title: The Newsprint
-email: josh@thenewsprint.co
-description: > # this means to ignore newlines until "baseurl:"
-  The Newsprint is a web-column written by Joshua Ginter. 
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://thenewsprint.co" # the base hostname & protocol for your site
-twitter_username: thenewsprint
-assets_url: "http://static.thenewsprint.co/assets"
-
-# Build settings
+---
+title: jarelion
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: _posts
+    type: posts
+  values:
+    reading_time: true
+    show_tags: true
+    show_categories: true
+    share_buttons: true
+    disqus: true
+baseurl: 
+url: http://yourdomain.com
 markdown: kramdown
-permalink: /:year/:month/:day/:title/
-exclude: ['/node_modules/','**.sublime-project','**.sublime-workspace','gruntfile.js','package.json','.git']
-paginate: 20
+relative_permalinks: false
+permalink: title/
+pagination: true
+paginate: 8
+paginate_path: page/:num/
+sass:
+  sass_dir: _sass
+  style: compressed
