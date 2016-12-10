@@ -5,7 +5,9 @@ header image: http://thefader-res.cloudinary.com/images/w_1440,c_limit,f_auto,q_
 layout: post
 ---
 
-# 99.9% is one of the best albums of the year. 
+![kaytranada-album-interview-99-percent.jpg](/uploads/kaytranada-album-interview-99-percent.jpg)
+
+# 99.9% is one of the best albums of the year.
 
 Kay’s inventive percussion keeps the album upbeat, but it’s often a dreamy, mellow listen, perhaps a result of the producer’s effort to broaden perceptions of his capabilities. Many of the featured collaborators, including Phonte, Syd, and Anderson .Paak, are hip-hop adjacent artists who have refused to be constrained by the dogmas of the genre, something that seems to have inspired Kay. Syd and Phonte in particular, have helped to define a contemporary, melodic take on funk, combining soul, R&B, and a dash of electronica. Their features, “One Too Many” and “You’re the One,” on which Kay showcases his love for warmly shimmering synths, are two of the album’s strongest.
 
