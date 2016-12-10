@@ -5,13 +5,26 @@
     <description></description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 10 Dec 2016 04:15:26 +0000</pubDate>
-    <lastBuildDate>Sat, 10 Dec 2016 04:15:26 +0000</lastBuildDate>
+    <pubDate>Sat, 10 Dec 2016 04:22:10 +0000</pubDate>
+    <lastBuildDate>Sat, 10 Dec 2016 04:22:10 +0000</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
+        <title>test</title>
+        <description>
+</description>
+        <pubDate>Sat, 10 Dec 2016 04:16:00 +0000</pubDate>
+        <link>http://yourdomain.com/title/</link>
+        <guid isPermaLink="true">http://yourdomain.com/title/</guid>
+        
+        
+      </item>
+    
+      <item>
         <title>kaytranada</title>
-        <description>&lt;h1 id=&quot;is-one-of-the-best-albums-of-the-year&quot;&gt;99.9% is one of the best albums of the year.&lt;/h1&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;/uploads/kaytranada-album-interview-99-percent.jpg&quot; alt=&quot;kaytranada-album-interview-99-percent.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;is-one-of-the-best-albums-of-the-year&quot;&gt;99.9% is one of the best albums of the year.&lt;/h1&gt;
 
 &lt;p&gt;Kay’s inventive percussion keeps the album upbeat, but it’s often a dreamy, mellow listen, perhaps a result of the producer’s effort to broaden perceptions of his capabilities. Many of the featured collaborators, including Phonte, Syd, and Anderson .Paak, are hip-hop adjacent artists who have refused to be constrained by the dogmas of the genre, something that seems to have inspired Kay. Syd and Phonte in particular, have helped to define a contemporary, melodic take on funk, combining soul, R&amp;amp;B, and a dash of electronica. Their features, “One Too Many” and “You’re the One,” on which Kay showcases his love for warmly shimmering synths, are two of the album’s strongest.&lt;/p&gt;
 
